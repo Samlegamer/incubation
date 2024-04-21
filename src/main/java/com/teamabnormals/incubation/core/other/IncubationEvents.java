@@ -1,8 +1,8 @@
 package com.teamabnormals.incubation.core.other;
 
+import com.teamabnormals.blueprint.core.api.EggLayer;
 import com.teamabnormals.incubation.common.entity.ai.goal.LayEggInNestGoal;
 import com.teamabnormals.incubation.core.Incubation;
-import com.teamabnormals.incubation.core.api.EggLayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;

@@ -1,8 +1,8 @@
 package com.teamabnormals.incubation.common.entity.ai.goal;
 
+import com.teamabnormals.blueprint.core.api.EggLayer;
 import com.teamabnormals.incubation.common.block.BirdNestBlock;
 import com.teamabnormals.incubation.common.block.EmptyNestBlock;
-import com.teamabnormals.incubation.core.api.EggLayer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.PathfinderMob;

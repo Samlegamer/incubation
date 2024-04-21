@@ -1,11 +1,10 @@
 {
   "required": true,
-  "package": "com.teamabnormals.incubation.core.mixin",
+  "package": "com.teamabnormals.incubation.core",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "refmap": "incubation.refmap.json",
   "mixins": [
-    "ChickenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
