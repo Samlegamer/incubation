@@ -26,8 +26,8 @@ public class IncubationBlocks {
 	public static final RegistryObject<Block> HAY_DUCK_NEST = HELPER.createBlockNoItem("hay_duck_nest", () -> new BirdNestBlock(IncubationConstants.DUCK_EGG, (EmptyNestBlock) HAY_NEST.get(), IncubationProperties.HAY_NEST));
 	public static final RegistryObject<Block> HAY_TURKEY_NEST = HELPER.createBlockNoItem("hay_turkey_nest", () -> new BirdNestBlock(IncubationConstants.TURKEY_EGG, (EmptyNestBlock) HAY_NEST.get(), IncubationProperties.HAY_NEST));
 
-	public static final RegistryObject<Block> CHICKEN_EGG_CRATE = HELPER.createBlock("chicken_egg_crate", () -> new Block(Block.Properties.of().mapColor(MapColor.TERRACOTTA_WHITE).strength(1.5F).sound(SoundType.WOOD)));
-	public static final RegistryObject<Block> TURTLE_EGG_CRATE = HELPER.createBlock("turtle_egg_crate", () -> new Block(Block.Properties.of().mapColor(MapColor.SAND).strength(1.5F).sound(SoundType.WOOD)));
+	public static final RegistryObject<Block> CHICKEN_EGG_CRATE = HELPER.createBlock("chicken_egg_crate", () -> new Block(Block.Properties.of().mapColor(MapColor.TERRACOTTA_WHITE).strength(1.5F).sound(SoundType.WOOD).ignitedByLava()));
+	public static final RegistryObject<Block> TURTLE_EGG_CRATE = HELPER.createBlock("turtle_egg_crate", () -> new Block(Block.Properties.of().mapColor(MapColor.SAND).strength(1.5F).sound(SoundType.WOOD).ignitedByLava()));
 
 	public static final class IncubationProperties {
 		public static final Block.Properties TWIG_NEST = Block.Properties.of().mapColor(MapColor.COLOR_BROWN).strength(0.5F).sound(SoundType.GRASS);
